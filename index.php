@@ -35,7 +35,7 @@
         <div class="col-md-6">
             <label for="inputAddress" class="form-label">Mobile Number</label>
             <br>
-            <input type="tel" id="phone" class="form-control" name="phno"  maxlength="10" value="" onkeypress="return /[0-9]/i.test(event.key)" required>
+            <input type="tel" id="phone" class="form-control" name="phno" minlength="10" maxlength="10" value="" onkeypress="return /[0-9]/i.test(event.key)" required>
 
 
             <script>
@@ -44,7 +44,7 @@
                     initialCountry: "uz",
                     separateDialCode: true,
                     excludeCountries: [],
-                    preferredCountries: [ "uz","in"]
+                    preferredCountries: ["uz", "in"]
                 });
             </script>
         </div>
@@ -815,11 +815,11 @@
                     </div>
                 </div>
         </div>
-        
-<div class="col-md-12  text-center">
-    <!-- <input type="submit" name="Submit" value="SUBMIT" class="btn btn-primary " onclick="fn1()"> -->
-    <button class="bn30 " id="btn1"> Submit </button>
-</div>
+
+        <div class="col-md-12  text-center">
+            <!-- <input type="submit" name="Submit" value="SUBMIT" class="btn btn-primary " onclick="fn1()"> -->
+            <button class="bn30 " id="btn1"> Submit </button>
+        </div>
 </section>
 
 
