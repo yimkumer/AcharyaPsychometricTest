@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.line{
+    size: 1;
+    width: 100%;
+    color: black;
+   
+}
+input[type=radio] {
+    
+    transform: scale(1.5);
+  }
+  input[type="radio"]:checked {
+    background-color: #F19008;
+    background-color: black;
+  }
+.heading{
+    background-color: #F19008;
+}
+.main{
+    background-color: #f4f7ff;
+}
+#btn1 {
+    background-color: #F19008; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+  }
